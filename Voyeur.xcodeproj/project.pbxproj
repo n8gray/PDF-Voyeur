@@ -54,7 +54,7 @@
 		6BF9C99806C18BD800F70448 /* FontList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontList.h; sourceTree = "<group>"; };
 		6BF9C99906C18BD800F70448 /* FontList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontList.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Voyeur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyeur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* PDF Voyeur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Voyeur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB82CB4611EF9E240095974F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/InfoWindowController.xib; sourceTree = "<group>"; };
 		CB82CB4811EF9E240095974F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/VoyeurDocument.xib; sourceTree = "<group>"; };
 		CB86602811EF983E00F7B35B /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Voyeur.app */,
+				8D1107320486CEB800E47090 /* PDF Voyeur.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* Voyeur */ = {
+		8D1107260486CEB800E47090 /* PDF Voyeur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBA4E5B211EF306200756F64 /* Build configuration list for PBXNativeTarget "Voyeur" */;
+			buildConfigurationList = CBA4E5B211EF306200756F64 /* Build configuration list for PBXNativeTarget "PDF Voyeur" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -176,10 +176,10 @@
 			);
 			dependencies = (
 			);
-			name = Voyeur;
+			name = "PDF Voyeur";
 			productInstallPath = "$(HOME)/Applications";
 			productName = Voyeur;
-			productReference = 8D1107320486CEB800E47090 /* Voyeur.app */;
+			productReference = 8D1107320486CEB800E47090 /* PDF Voyeur.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* Voyeur */,
+				8D1107260486CEB800E47090 /* PDF Voyeur */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = Voyeur;
+				PRODUCT_NAME = "PDF Voyeur";
 				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -362,7 +362,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = Voyeur;
+				PRODUCT_NAME = "PDF Voyeur";
 				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
@@ -394,7 +394,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = Voyeur;
+				PRODUCT_NAME = "PDF Voyeur";
 				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		CBA4E5B211EF306200756F64 /* Build configuration list for PBXNativeTarget "Voyeur" */ = {
+		CBA4E5B211EF306200756F64 /* Build configuration list for PBXNativeTarget "PDF Voyeur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBA4E5AE11EF306100756F64 /* Development */,
